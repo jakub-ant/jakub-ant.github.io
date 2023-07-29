@@ -1,0 +1,100 @@
+.main-wrapper {
+    margin-top: 205px;
+}
+
+@media (max-width: 600px) {
+    .main-wrapper {
+        margin-top: 84px;
+    }
+}
+
+.imgHeader {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+@media (min-width: 600px) {
+    .imgHeader {
+        width: 100%;
+    }
+}
+
+.imgHeader h1 {
+    font-size: 30px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #ffffff;
+}
+
+@media (min-width: 600px) {
+    .imgHeader h1 {
+        font-size: 40px;
+        letter-spacing: 38px;
+    }
+}
+
+.blueHeader {
+    border: 2px solid #434753;
+}
+
+.blueHeader h1 {
+    color: #434753;
+}
+
+.cd-fixed-bg {
+    padding: 12%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-height: 680px) {
+    .cd-fixed-bg {
+        padding: 6% 12%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.cd-fixed-bg.cd-bg-1 {
+    background-image: url("../images/adorable-1850465_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-2 {
+    background-image: url("../images/architecture-1867426_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-3 {
+    background-image: url("../images/backcountry-skiiing-1363750_1920.jpg");
+}
+
+.cd-fixed-bg.cd-bg-4 {
+    background-image: url("../images/beach-1149146_1920.jpg");
+}
+
+.cd-scrolling-bg {
+    padding: 4% 10%;
+    color: #84898c;
+}
+
+.cd-container {
+    text-align: justify;
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+@media screen and (min-width: 768px) {
+    .main-menu-content #main-menu {
+        display: block;
+    }
+}

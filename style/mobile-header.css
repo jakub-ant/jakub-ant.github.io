@@ -1,0 +1,29 @@
+header.mobile-header {
+    width: 100vw;
+}
+
+@media (min-width: 600px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+.mobile-header nav {
+    position: relative;
+}
+
+.nav-logo-mobile {
+    padding: 12px 12px 12px 52px;
+}
+
+.nav-logo-mobile h1 {
+    font-size: 24px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nav-logo-mobile>* {
+    text-align: center;
+}

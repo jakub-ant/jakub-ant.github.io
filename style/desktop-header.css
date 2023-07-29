@@ -1,0 +1,51 @@
+@media (max-width: 600px) {
+    .desktop-header {
+        display: none;
+    }
+}
+
+.desktop-header-inner-container {
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.nav-logo {
+    z-index: 2;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav-logo h1 {
+    font-size: 28px;
+    font-family: "Jura";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+
+.main-menu-content #main-menu {
+    display: none;
+    margin-top: 10px;
+}
+
+.main-menu-content {
+    float: right;
+    padding: 16px 0 0 0;
+}
+
+
+.main-menu-content #main-menu li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.main-menu-content #main-menu li:hover {
+    background-color: #363636;
+    cursor: pointer;
+}
+
+.main-menu-content #main-menu li:hover a {
+    color: #fff;
+}

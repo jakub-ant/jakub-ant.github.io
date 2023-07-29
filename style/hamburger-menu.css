@@ -1,0 +1,43 @@
+.hamburger-menu {
+    position: absolute;
+    top: 22px;
+    left: 6px;
+    transform: rotate(0);
+    transition: .6s;
+}
+
+.hamburger-menu-open {
+    transform: rotate(90deg);
+    transition: .6s;
+}
+
+.hamburger-menu span {
+    display: block;
+    margin: 6px 0;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.aside-menu {
+    position: absolute;
+    top: 84px;
+    left: -180px;
+    background: #434753;
+    transition: .6s;
+}
+
+.aside-menu-open {
+    transform: translateX(180px);
+    transition: .6s;
+}
+
+
+.aside-menu li {
+    padding: 12px
+}
+
+.aside-menu li span {
+    padding: 12px;
+    color: #fff;
+}
