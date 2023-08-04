@@ -24,12 +24,6 @@
     letter-spacing: 25px;
 }
 
-
-.main-menu-content #main-menu {
-    display: none;
-    margin-top: 10px;
-}
-
 .main-menu-content {
     float: right;
     padding: 16px 0 0 0;
